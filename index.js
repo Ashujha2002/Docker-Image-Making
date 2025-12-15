@@ -7,13 +7,24 @@ app.get("/", (req,res)=>{
         [
            { id: 1,
             name: "Ashutosh Jha",
-            employeeSalary: 12000
+            employeeSalary: 1200
            },
            
            {
             id:2,
             name: "Ravi",
-            employeeSalary: 140000
+            employeeSalary: 14000
+           },
+           
+           {
+            id:3,
+            name: "Kishan Mishra",
+            employeeSalary: 10000
+           },
+           {
+            id: 4,
+            name: "Kusum Jha",
+            employeeSalary: 7000
            }
         ]
     )
